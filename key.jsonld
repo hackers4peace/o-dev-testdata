@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+       "idp": "https://idp.wwelves.org/7555c1a0-2e8d-4132-8672-617f62b70965/"
+    }
+  ],
+  "@id": "idp:7f271900-cdc5-4cc6-a732-d532a424ace9",
+  "@graph": [
+    {
+      "@id": "idp:7f271900-cdc5-4cc6-a732-d532a424ace9",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "idp:7f271900-cdc5-4cc6-a732-d532a424ace9#key",
+      "void:inDataset": "idp:#dataset",
+      "dcterms:creator": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "as:generator": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T21:34:27Z"
+    },
+    {
+      "@id": "idp:7f271900-cdc5-4cc6-a732-d532a424ace9#key",
+      "@type": "sec:Key",
+      "sec:owner": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "sec:publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuC7whUglQethcbHVbtWz\n8F4oeSoBRKKDa8Z9afJv1ykYBWWToADHdBd8DkVdnvPuVIfVN77MxrFeHKdVEMgw\nhWVQyhPABNtzdgM2L/BRyLlD+/9lt8gtMUY3jmFi9tRLB/INU4AeF85cEPShfDu9\nZMFvAqCDrciWrbwaoBzjeck239P6sDd6y300GUQ35aOlxgOVX8hvZVlGH5CVynSh\nScxaYHmSZHbtE0nes8ra3kCQRjSnPpK2zLX2HGxOok6GzEPMGh757aGICGpIZV5l\niiA5OuEwniChNUzI1xbhftkr/a771DyGM658QuQgIK+quMHePEnAwD1f3iugMo1q\niwIDAQAB\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "sec:signature": { }
+}

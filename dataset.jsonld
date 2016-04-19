@@ -1,0 +1,30 @@
+{
+  "@context": [
+    {
+       "dataset": "https://graph.wwelves.org/a555d139-2738-4c14-a40a-2c0d952eb67d/",
+       "media": "https://media.wwelves.org/1fc54d19-1db6-45f8-9771-bb2b2ab9a330/",
+       "idp": "https://idp.wwelves.org/7555c1a0-2e8d-4132-8672-617f62b70965/",
+    }
+  ],
+  "@id": "dataset:",
+  "@graph": [
+    {
+      "@id": "dataset:",
+      "@type": "void:DatasetDescription",
+      "foaf:primaryTopic": "dataset:#dataset",
+      "dcterms:creator": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "as:generator": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T23:27:19Z"
+    },
+    {
+      "@id": "dataset:#dataset",
+      "@type": "void:Dataset",
+      "void:uriSpace": "https://graph.wwelves.org/a555d139-2738-4c14-a40a-2c0d952eb67d/",
+      "void:rootResource": "dataset:87eb4737-f31d-4ee2-98ca-cbbf2b2f7cc1",
+      "dcterms:subject": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "dcterms:publisher": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "dcterms:license": "http://www.opendatacommons.org/licenses/by/"
+    }
+  ],
+  "sec:signature": { }
+}

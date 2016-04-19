@@ -1,0 +1,24 @@
+{
+  "@context": [
+    {
+       "dataset": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/"
+    }
+  ],
+  "@id": "dataset:781e974b-6fbb-4b22-8716-d354703f2001#app",
+  "@graph": [
+    {
+      "@id": "dataset:781e974b-6fbb-4b22-8716-d354703f2001",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "dataset:781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "void:inDataset": "dataset:#dataset",
+      "dcterms:creator": "dataset:781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "as:generator": "dataset:781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T17:46:16Z"
+    },
+    {
+      "@id": "dataset:781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "@type": "solid-app:Application"
+    }
+  ],
+  "sec:signature": { }
+}

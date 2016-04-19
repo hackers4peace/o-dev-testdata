@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+       "dataset": "https://graph.wwelves.org/a555d139-2738-4c14-a40a-2c0d952eb67d/",
+       "idp": "https://idp.wwelves.org/7555c1a0-2e8d-4132-8672-617f62b70965/"
+    }
+  ],
+  "@id": "dataset:7eb5fec9-67b5-43ec-8f85-57b1033d215a",
+  "@graph": [
+    {
+      "@id": "dataset:7eb5fec9-67b5-43ec-8f85-57b1033d215a",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "dataset:7eb5fec9-67b5-43ec-8f85-57b1033d215a#interest",
+      "void:inDataset": "dataset:#dataset",
+      "dcterms:creator": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "as:generator": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T23:59:58Z"
+    },
+    {
+      "@id": "dataset:7eb5fec9-67b5-43ec-8f85-57b1033d215a#interest",
+      "@type": "cco:CognitiveCharacteristic",
+      "cco:agent": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "cco:topic": "wd:Q5869",
+      "cco:characteristic": "cco:interest",
+      "cco:activity": "verb:visit"
+    },
+    {
+      "@id":  "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "@type": "foaf:Person",
+      "cco:interest": "wd:Q5869"
+    }
+  ],
+  "sec:signature": { }
+}

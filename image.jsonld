@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+       "dataset": "https://graph.wwelves.org/a555d139-2738-4c14-a40a-2c0d952eb67d/",
+       "media": "https://media.wwelves.org/1fc54d19-1db6-45f8-9771-bb2b2ab9a330/",
+       "idp": "https://idp.wwelves.org/7555c1a0-2e8d-4132-8672-617f62b70965/",
+    }
+  ],
+  "@id": "dataset:8936b531-fbbf-4001-98df-7b879b2ea112",
+  "@graph": [
+    {
+      "@id": "dataset:8936b531-fbbf-4001-98df-7b879b2ea112",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "media:97a94540-829d-418b-bc19-3ce236c124c4",
+      "void:inDataset": "dataset:#dataset",
+      "dcterms:creator": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "as:generator": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T21:09:48Z"
+    },
+    {
+      "@id": "media:97a94540-829d-418b-bc19-3ce236c124c4",
+      "@type": "plp:ImageBlob",
+      "ianarel:describedby": "dataset:8936b531-fbbf-4001-98df-7b879b2ea112"
+    }
+  ],
+  "sec:signature": { }
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "",
+  "@id": "",
+  "@graph": [
+    {
+      "@id": "",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "",
+      "void:inDataset": "",
+      "dcterms:creator": "",
+      "as:generator": "",
+      "dcterms:created": ""
+    },
+    {
+      "@id": "",
+      "@type": "solid-app:Application",
+      "sec:owner": "",
+      "sec:publicKeyPem": ""
+    }
+  ]
+}

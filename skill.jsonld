@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+       "dataset": "https://graph.wwelves.org/a555d139-2738-4c14-a40a-2c0d952eb67d/",
+       "idp": "https://idp.wwelves.org/7555c1a0-2e8d-4132-8672-617f62b70965/"
+    }
+  ],
+  "@id": "dataset:ad17bb02-96a9-4e02-8d14-d2cbf4e3d737",
+  "@graph": [
+    {
+      "@id": "dataset:ad17bb02-96a9-4e02-8d14-d2cbf4e3d737",
+      "@type": "foaf:Document",
+      "foaf:primaryTopic": "dataset:ad17bb02-96a9-4e02-8d14-d2cbf4e3d737#skill",
+      "void:inDataset": "dataset:#dataset",
+      "dcterms:creator": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "as:generator": "https://graph.hackers4peace.net/4f72bb19-418f-49d3-9e70-136ce08c767d/781e974b-6fbb-4b22-8716-d354703f2001#app",
+      "dcterms:created": "2016-04-18T23:53:39Z"
+    },
+    {
+      "@id": "dataset:ad17bb02-96a9-4e02-8d14-d2cbf4e3d737#skill",
+      "@type": "cco:CognitiveCharacteristic",
+      "cco:agent": "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "cco:topic": "wd:Q2005",
+      "cco:characteristic": "cco:skill",
+      "cco:activity": "verb:use"
+    },
+    {
+      "@id":  "idp:7787209d-41e9-48a9-aef3-500cbfeb450a#identity",
+      "@type": "foaf:Person",
+      "cco:skill": "wd:Q2005"
+    }
+  ],
+  "sec:signature": { }
+}
